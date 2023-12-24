@@ -1,0 +1,103 @@
+.chat-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: #3A4253;
+    padding: 20px;
+    width: 100%;
+    min-height: 700px;
+}
+
+.message-input{
+    display: flex;
+    gap: 20px;
+}
+
+.m-input{
+    display: flex;
+    padding: 12px 20px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #596170;
+    background: none;
+    width: 100%;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.down{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.messages{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.message{
+    display: flex;
+    justify-content: flex-end;
+    /* padding: 10px; */
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.text-message{
+    max-width: 400px;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+    border-radius: 10px;
+    background: #36668D;
+}
+
+.time{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.chat-area-header{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.user-info{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.last-visit{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.chat-area-header-info{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}

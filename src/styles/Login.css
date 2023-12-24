@@ -1,0 +1,52 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 380px;
+}
+
+.from{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #596170;
+}
+
+.form-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.registration_link_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #596170;    
+}
+
+.registration_link_container-title{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+
+.registration_link_container-link{
+    color: #56A2FF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fg-password{
+    display: flex;
+    justify-content: flex-end;
+}

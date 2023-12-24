@@ -1,0 +1,32 @@
+.base_input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.base_input-label{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.base_input-input{
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 1px solid #596170;
+    background-color: transparent;
+
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.base_input-input:focus{
+    border-color: #56A2FF;
+}
